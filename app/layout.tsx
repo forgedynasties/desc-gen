@@ -25,15 +25,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               Desc-Gen
             </h1>
             <nav className="hidden sm:flex gap-4 text-sm font-medium text-white/90">
+              
               <a
-                href="https://openrouter.ai/"
-                target="_blank"
-                className="hover:text-white transition-colors"
-              >
-                OpenRouter
-              </a>
-              <a
-                href="https://github.com/"
+                href="https://github.com/forgedynasties/desc-gen"
                 target="_blank"
                 className="hover:text-white transition-colors"
               >
@@ -45,7 +39,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <main className="flex-1 container mx-auto max-w-5xl px-6 py-10">{children}</main>
         <footer className="mt-auto border-t border-slate-200 bg-white/60 backdrop-blur py-4">
           <div className="container mx-auto max-w-5xl px-6 text-xs text-slate-500 flex flex-col sm:flex-row gap-2 sm:items-center justify-between">
-            <span>&copy; {new Date().getFullYear()} Product Description Generator</span>
+            <span>&copy; {new Date().getFullYear()} Desc-Gen</span>
             <span className="italic">Craft better listings faster.</span>
           </div>
         </footer>
